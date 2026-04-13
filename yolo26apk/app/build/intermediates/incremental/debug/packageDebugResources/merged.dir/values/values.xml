@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <string name="app_name">Steel Defect Detector</string>
+    <string name="capture_and_detect">拍照并检测</string>
+    <string name="ready">准备就绪</string>
+    <string name="result_image">识别结果图</string>
+    <style name="Theme.SteelDefectMobile" parent="Theme.MaterialComponents.DayNight.DarkActionBar"/>
+</resources>

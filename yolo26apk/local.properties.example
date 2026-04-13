@@ -1,0 +1,3 @@
+# Copy this file to local.properties and edit the path.
+# Use double backslashes on Windows.
+ncnn.dir=D:\\ncnn-android-vulkan\\arm64-v8a\\lib\\cmake\\ncnn

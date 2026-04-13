@@ -1,0 +1,3 @@
+C:/Users/zhou/Desktop/project/yolo26/app/.cxx/Debug/y2j2p06v/arm64-v8a/CMakeFiles/yolo26_ncnn.dir
+C:/Users/zhou/Desktop/project/yolo26/app/.cxx/Debug/y2j2p06v/arm64-v8a/CMakeFiles/edit_cache.dir
+C:/Users/zhou/Desktop/project/yolo26/app/.cxx/Debug/y2j2p06v/arm64-v8a/CMakeFiles/rebuild_cache.dir
