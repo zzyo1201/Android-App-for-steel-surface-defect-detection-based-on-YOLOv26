@@ -1,4 +1,4 @@
-# 使用YOLO26的钢材表面缺陷检测
+# 基于 YOLOv26 的钢材表面缺陷检测 Android App
 
 ## 1，数据集
 
@@ -183,4 +183,27 @@ crazing和 scratches是 n 模型的强项，s 调参版反而变弱
 patches / pitted_surface 在所有模型中都接近完美（>0.94），说明这些缺陷特征非常明显
 
 rolled-in_scale 在 s + 调参版提升最明显
+
+# 5，安卓app的开发
+
+## 5.1，模型转换
+
+将模型转换为 NCNN 格式（model.ncnn.param/bin），用于移动端部署。
+
+<img width="1185" height="447" alt="image" src="https://github.com/user-attachments/assets/d89be13c-ca8c-48f2-802a-180e15393f6c" />
+
+<img width="1143" height="354" alt="image" src="https://github.com/user-attachments/assets/d4f5962b-cda7-4cec-ac32-d91747b14700" />
+
+## 5.2，app开发
+
+参考ncnn-android-yolov8 开源模板
+
+修改核心 C++ 代码（yolov8ncnn.cpp、yolov8_det.cpp），实现自定义模型固定加载、640×640 输入尺寸适配及 6 类缺陷后处理与绘制逻辑。将检测框坐标映射回原图，输出类别与置信度结果。
+
+<img width="2559" height="1526" alt="image" src="https://github.com/user-attachments/assets/dfa2d8e3-5100-4c06-b49a-32ee9155eeef" />
+
+## 5.3，app测试
+
+完成 Android 端打包、安装测试与 Redmi K60 真机适配，实现“拍照 -> 推理 -> 绘制结果 -> 本地相册保存”完整流程。
+
 
