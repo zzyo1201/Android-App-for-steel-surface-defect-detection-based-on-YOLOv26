@@ -206,4 +206,6 @@ rolled-in_scale 在 s + 调参版提升最明显
 
 完成 Android 端打包、安装测试与 Redmi K60 真机适配，实现“拍照 -> 推理 -> 绘制结果 -> 本地相册保存”完整流程。
 
+![Screenshot_2026-04-14-00-18-35-268_com example steeldefect](https://github.com/user-attachments/assets/5980a5ed-6859-4374-bdea-b644e70b264a)
 
+![steel_defect_1776096514331_1776096540102edit](https://github.com/user-attachments/assets/63e78152-d1cb-42f5-a1d9-f6a88cd9ed1d)
