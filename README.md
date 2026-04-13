@@ -208,4 +208,8 @@ rolled-in_scale 在 s + 调参版提升最明显
 
 ![Screenshot_2026-04-14-00-18-35-268_com example steeldefect](https://github.com/user-attachments/assets/5980a5ed-6859-4374-bdea-b644e70b264a)
 
+![steel_defect_1776096945478](https://github.com/user-attachments/assets/45079c0f-89c8-4497-a85a-dacbc1aa2ec3)
+
+![steel_defect_1776096690024_1776096720208edit](https://github.com/user-attachments/assets/8525165d-b618-457f-b56b-9a2bfad3df2a)
+
 ![steel_defect_1776096514331_1776096540102edit](https://github.com/user-attachments/assets/63e78152-d1cb-42f5-a1d9-f6a88cd9ed1d)
