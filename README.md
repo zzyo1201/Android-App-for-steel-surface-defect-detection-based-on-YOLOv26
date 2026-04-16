@@ -1,8 +1,13 @@
 # 基于 YOLOv26 的钢材表面缺陷检测 Android App
 
 ## 项目文件结构说明
-
-
+- `yolo26n.ipynb`，`yolo26n-tune.ipynb`，`yolo26s.ipynb`，`yolo26s-tune.ipynb`：各模型的训练代码，以及对应的调节超参数的代码
+- `yolo26n`，`yolo26n-tune`，`yolo26s`，`yolo26s-tune`：训练模型时的过程文件夹，包括最新模型，最佳模型，模型权重文件，训练集评估结果，验证集评估结果
+- `NCNN.ipynb`：用于模型格式转换的代码
+- `result.jpg`：用于测试模型格式转换的样例图片
+- `yolo26akp`：构建安卓app的项目文件夹
+- `app-debug.apk`：最终输出结果，可安装在安卓手机上的安装包
+- `README.md`：本说明文件
 
 ## 1，数据集
 
